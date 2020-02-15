@@ -1,3 +1,15 @@
+body {
+  background-color: white;
+  margin: 75px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 nav {
   float: right;
   overflow: hidden;
@@ -6,6 +18,7 @@ nav {
 nav a {
   display: inline-block;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 14px 16px;
   font-size: 1.7em;
@@ -29,11 +42,8 @@ nav a.active {
   display: inline-block;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.content {
+  padding: 35px;
 }
 
 h1 {
@@ -46,16 +56,14 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+p {
   color: black;
-  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 75px;
 }
 
 footer {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 700;
   padding-top: 50px;
 }
