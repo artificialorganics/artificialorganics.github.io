@@ -1,8 +1,8 @@
 body {
   background-color: white;
-  margin-top: 45px;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .center {
@@ -45,7 +45,7 @@ nav a.active {
 }
 
 .content {
-  padding: 35px;
+  padding: 2%;
 }
 
 h1 {
@@ -65,7 +65,7 @@ p {
 
 footer {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 700;
-  padding-top: 50px;
+  padding-top: 2%;
 }
