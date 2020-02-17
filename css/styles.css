@@ -12,8 +12,9 @@ body {
 
 .logo {
   display: inline-block;
-  width: 325px;
-  }
+  width: 100%;
+  max-width: 325px;
+}
 
 nav {
   display: inline-block;
