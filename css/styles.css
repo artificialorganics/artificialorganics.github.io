@@ -38,6 +38,12 @@ nav a:hover {
   text-decoration: none;
 }
 
+nav a:focus {
+  background-color: white;
+  color: blue;
+  text-decoration: none;
+}
+
 nav a:active {
   background-color: white;
   color: blue;
@@ -62,6 +68,11 @@ a:visited {
 }
 
 a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a:focus {
   color: blue;
   text-decoration: none;
 }
