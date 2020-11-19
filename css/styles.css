@@ -15,6 +15,7 @@ body {
   width: 350px;
 }
 
+/*Navigation*/
 nav {
   display: inline-block;
   align-self: center;
@@ -49,6 +50,55 @@ nav a:active {
   text-decoration: none;
 }
 
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 1.7em;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: white
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+/*Content Styling*/
 .content {
   padding: 2%;
   max-width: 900px;
@@ -143,7 +193,33 @@ footer {
   padding-bottom: 2%;
 }
 
-@media screen and (max-width: 500px) {
+.breathe {
+  position: relative;
+}
+
+@keyframes breathe {
+  0% {width: .1vw; height: .1vw;}
+  25% {width: .1vw; height: .1vw;}
+  50% {width: 115vw; height: 115vw;}
+  75% {width: 115vw; height: 115vw;}
+  100% {width: .1vw; height: .1vw;}  
+}
+
+#circle {
+  background: black;
+  width: .1vw;
+  height: .1vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: breathe;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 660px) {
   .column {
     width: 100%;
   }
