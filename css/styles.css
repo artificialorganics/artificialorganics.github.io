@@ -5,7 +5,7 @@ body {
   margin-right: 3%;
 }
 
-.topsection {
+header {
   display: flex;
   justify-content: space-between;
 }
