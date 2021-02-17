@@ -15,7 +15,8 @@ header {
   width: 350px;
 }
 
-/*Navigation*/
+
+/* Navigation */
 nav {
   display: inline-block;
   align-self: center;
@@ -50,7 +51,8 @@ nav a:active {
   text-decoration: none;
 }
 
-/* Dropdown Button */
+
+/* FancyNav */
 .dropbtn {
   background-color: white;
   color: black;
@@ -98,7 +100,46 @@ nav a:active {
   background-color: white;
 }
 
-/*Content Styling*/
+.homemenu {
+  max-width: 1400px;
+  display: block; 
+  position: relative;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.homelinks {
+  margin-left: 8%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.homelinks a:link {
+  color: white;
+}
+
+.homelinks a:visited {
+  color: white;
+}
+
+.homelinks a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.homelinks a:focus {
+  color: blue;
+  text-decoration: none;
+}
+
+.homelinks a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+
+/* Content Styling */
 .content {
   padding: 2%;
   max-width: 1000px;
@@ -162,6 +203,7 @@ h4 {
 p {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
   text-align: left;
 }
 
@@ -194,6 +236,8 @@ footer {
   padding-bottom: 2%;
 }
 
+
+/* Breathe Animation */
 .breathe {
   position: relative;
 }
@@ -220,6 +264,8 @@ footer {
   animation-iteration-count: infinite;
 }
 
+
+/* Mobile */
 @media screen and (max-width: 660px) {
   .column {
     width: 100%;
@@ -229,8 +275,12 @@ footer {
     max-width: 250px;
   }
 
-  .topsection {
+  header {
     display: block;
     text-align: center;
+  }
+
+  .homelinks {
+    display: none;
   }
 }
